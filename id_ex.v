@@ -9,7 +9,7 @@ module id_ex (
     input wire [`AluOpBus] id_aluop,
     // 译码阶段的指令要进行的运行类型，用于告诉ALU具体执行哪种操作，例如加减乘除，异或左移等。相当于aluop是大类，alusel是aluop大类下的小类。
     input wire[`AluSelBus] id_alusel,
-        // 译码阶段的源操作数1
+    // 译码阶段的源操作数1
     input wire[`RegBus] id_reg1,
     // 译码阶段的源操作数2
     input wire [`RegBus] id_reg2,

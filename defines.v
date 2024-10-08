@@ -42,6 +42,7 @@
 `define EXE_NOP_OP    8'b00000000
 
 //AluSel 算数逻辑单元选择 alu select
+// 逻辑运算
 `define EXE_RES_LOGIC 3'b001
 
 `define EXE_RES_NOP 3'b000
